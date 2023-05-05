@@ -1,0 +1,141 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 900px;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .product img {
+    max-width: 100%;
+  }
+  
+  .product h2 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+  }
+  
+  .product p.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .product p.description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .product p.rating {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .product ul.comments {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .product ul.comments li {
+    margin-bottom: 10px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .gallery img {
+    max-width: 250px;
+    max-height: 250px;
+    margin: 10px;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .details h3 {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  .details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .details ul li {
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main {
+      margin: 20px auto;
+    }
+    
+    .product {
+      margin-bottom: 20px;
+    }
+    
+    .product h2 {
+      font-size: 2rem;
+      margin: 10px 0;
+    }
+    
+    .product p.price {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+    
+    .product p.description {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+    
+    .product p.rating {
+      font-size: 1rem;
+      margin-bottom: 10px;
+      }
+      
+      .product ul.comments {
+      font-size: 1rem;
+      }
+      
+      .gallery img {
+      max-width: 200px;
+      max-height: 200px;
+      margin: 5px;
+      }
+      
+      .details h3 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+      }
+      
+      .details ul {
+      font-size: 1rem;
+      }
+      
+      .details ul li {
+      margin-bottom: 5px;
+      }
+      }
